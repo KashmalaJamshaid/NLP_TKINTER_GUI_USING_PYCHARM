@@ -4,21 +4,23 @@ The use of semantic web and a number of participatory platforms, such as web / t
 1.	Text Extraction: The required input data for this part of text mining comes in XML file format. Relevant information is extracted automatically from these input files. This text is saved to separate text files after retrieving relevant data.
 2.	Preprocessing / Text Cleansing: The next step is to clean the extracted text and this preprocessing module ensures that data is ready now for analysis process. Following preprocessing methods are involved in text cleaning.following preprocessing methods are involved in text cleaning.Following preprocessing methods are involved in text cleaning.
 
+
 (i)	Tokenization
-![](/images/Tokenization.jpg) 
+![Tokenization](https://user-images.githubusercontent.com/65674945/128155672-49b18c1e-53a2-4802-920b-17869fe64092.jpg)
 
 (ii)	POS tagging
-![](/images/POS_tagger.jpg)
+![POS_tagger](https://user-images.githubusercontent.com/65674945/128155623-cf70dfbd-2f0a-4723-8876-0c94007f4fd2.jpg)
 
 (iii)	Stop Words Filtering
-![](/images/Stopwords_Removal.jpg)
+![Stopwords_Removal](https://user-images.githubusercontent.com/65674945/128155689-3b22579d-4377-4ef3-bbcf-529fdc9a3958.jpg)
 
 (iv)	Lemmatization
-![](/images/Lemmatization.jpg)
+![Lemmatization](https://user-images.githubusercontent.com/65674945/128155620-3f9ca6c3-e09b-4c22-92ef-59c0a931f14c.jpg)
 
 (v)	TD/IDF 
-![](/images/TDIDF.jpg)
+![TDIDF](https://user-images.githubusercontent.com/65674945/128155666-b3b7cf29-9b05-45ec-9fbd-260cab488a98.jpg)
 
-3.	Word Expansion and Matching: A list of the keywords is created at the end of the preprocessing step. This list of words originated from a file created by a model operation. Single file cannot provide sufficient information to generate the knowledge elements we need for the ontology specific to a domain. To enrich vocabulary with the necessary elements of understanding, we extract related terms (synonyms) from the WordNet dictionary created by Princeton University 
+- Word Expansion and Matching: A list of the keywords is created at the end of the preprocessing step. This list of words originated from a file created by a model operation. Single file cannot provide sufficient information to generate the knowledge elements we need for the ontology specific to a domain. To enrich vocabulary with the necessary elements of understanding, we extract related terms (synonyms) from the WordNet dictionary created by Princeton University. 
+![WordNet](https://user-images.githubusercontent.com/65674945/128155680-9f6ad8fb-1426-4484-b6f3-7274cbfcddaa.jpg)
 
-![](/images/WordNet.jpg)
+
